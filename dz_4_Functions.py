@@ -43,3 +43,4 @@ if __name__ == "__main__":
     print(validate_inn("1234567890"))    # False
     print(validate_inn("abcdefghij"))    # False
 
+
