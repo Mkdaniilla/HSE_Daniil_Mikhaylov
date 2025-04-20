@@ -1,0 +1,15 @@
+[
+  {
+    "publisher_inn": "1234567890",
+    "msg_text": "Контакт: ivanov@mail.ru",
+    "contact_email": "support@company.ru"
+  },
+  {
+    "publisher_inn": "1111222233",
+    "msg_text": "Пишите на info@example.com"
+  },
+  {
+    "publisher_inn": "5555666677",
+    "msg_text": "email отсутствует"
+  }
+]
