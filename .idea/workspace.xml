@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b101e937-57d4-4a66-9afc-4217ec655f73" name="Changes" comment="аа">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ_5_6/court_dates.json" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_5_6/court_dates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ_5_6/task_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_5_6/task_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZ_5_6/traders.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.task_6">
+  <component name="RunManager" selected="Python.main">
     <configuration name="dz_3_Functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="ENV_FILES" value="" />
@@ -154,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task_6" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.task_6" />
         <item itemvalue="Python.dz_4_Functions" />
         <item itemvalue="Python.dz_3_Functions" />
       </list>
@@ -209,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745155589981</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="аа">
+      <option name="closed" value="true" />
+      <created>1747479283696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747479283696</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -13,15 +13,15 @@ def load_traders_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-# === 3. Отбираем организации по ИНН ===
+# === 3. Отбираем организации по INN ===
 def filter_traders_by_inn(traders_data, inn_list):
     result = []
     for trader in traders_data:
-        if trader.get("ИНН") in inn_list:
+        if trader.get("inn") in inn_list:
             result.append({
-                "ИНН": trader.get("ИНН"),
-                "ОГРН": trader.get("ОГРН"),
-                "адрес": trader.get("адрес")
+                "ИНН": trader.get("inn"),
+                "ОГРН": trader.get("ogrn"),
+                "адрес": trader.get("address")
             })
     return result
 
@@ -59,7 +59,6 @@ def extract_emails_by_inn(file_path):
 
 # === 7. Сохраняем результат в emails.json ===
 def save_emails_json(email_dict, file_path):
-    # Преобразуем set в list для JSON
     cleaned = {inn: list(emails) for inn, emails in email_dict.items()}
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(cleaned, f, ensure_ascii=False, indent=2)
